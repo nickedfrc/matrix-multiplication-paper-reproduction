@@ -1,0 +1,27 @@
+Matrix multiplication paper reproduction and benchmarks
+Original implementation and documentation, 2026.
+
+AI assistance:
+Code, documentation and local verification were developed with OpenAI Codex assistance.
+AI assistance is not authorship of the underlying mathematical results.
+This is an independent educational reproduction, not an official OpenAI implementation.
+
+Mathematical sources:
+OpenAI. An Upper Bound of 9/4 for the Matrix Multiplication Exponent.
+October 2, 2026.
+https://github.com/openai/math/tree/main/preprints/Matrix-Multiplication-Nine-Fourths-October-2-2026
+The source repository publishes its materials under Apache License 2.0.
+No source code, PDF text, figures or Lean files from that repository are redistributed here.
+
+V. Strassen. Gaussian elimination is not optimal.
+Numerische Mathematik 13 (1969), 354-356.
+https://doi.org/10.1007/BF02165411
+The classic seven-product identities are independently implemented here.
+
+Dependency:
+NumPy, used as an external dependency; not vendored.
+https://numpy.org/
+https://github.com/numpy/numpy/blob/main/LICENSE.txt
+
+The 9/4 paper proves an asymptotic existence bound. This project does not
+provide the unspecified rank decomposition required for its full algorithm.

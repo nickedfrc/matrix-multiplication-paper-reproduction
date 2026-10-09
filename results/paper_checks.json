@@ -1,0 +1,421 @@
+{
+  "status": "passed",
+  "scope": "finite identities and numerical checks, not proof of full theorem",
+  "separation_cases": 6,
+  "fourier_max_error": 1.2158392476705703e-15,
+  "epsilon_decay": [
+    {
+      "epsilon": 0.5,
+      "distance_to_limit": 2.2089001118155065
+    },
+    {
+      "epsilon": 0.25,
+      "distance_to_limit": 1.1044500559077532
+    },
+    {
+      "epsilon": 0.125,
+      "distance_to_limit": 0.5522250279538766
+    },
+    {
+      "epsilon": 0.0625,
+      "distance_to_limit": 0.2761125139769383
+    }
+  ],
+  "determinant_filtration_cases": [
+    {
+      "a": 1,
+      "b": 2,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 0
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 0
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 0
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 0
+    },
+    {
+      "a": 1,
+      "b": 6,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 0
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 1
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 1
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 1
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 1
+    },
+    {
+      "a": 2,
+      "b": 6,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 1
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 2
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 2
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 2
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 2
+    },
+    {
+      "a": 3,
+      "b": 6,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 2
+    },
+    {
+      "a": 4,
+      "b": 2,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 3
+    },
+    {
+      "a": 4,
+      "b": 3,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 3
+    },
+    {
+      "a": 4,
+      "b": 4,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 3
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 3
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 3
+    },
+    {
+      "a": 5,
+      "b": 2,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 4
+    },
+    {
+      "a": 5,
+      "b": 3,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 4
+    },
+    {
+      "a": 5,
+      "b": 4,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 4
+    },
+    {
+      "a": 5,
+      "b": 5,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 4
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "diagonal_error": 0.0,
+      "discarded_positive_weight_entries": 4
+    }
+  ],
+  "three_sector_cases": [
+    {
+      "a": 1,
+      "h": 1,
+      "input_terms": 3,
+      "surviving_terms": 3,
+      "output_blocks": 3
+    },
+    {
+      "a": 1,
+      "h": 2,
+      "input_terms": 6,
+      "surviving_terms": 6,
+      "output_blocks": 3
+    },
+    {
+      "a": 1,
+      "h": 3,
+      "input_terms": 9,
+      "surviving_terms": 9,
+      "output_blocks": 3
+    },
+    {
+      "a": 1,
+      "h": 4,
+      "input_terms": 12,
+      "surviving_terms": 12,
+      "output_blocks": 3
+    },
+    {
+      "a": 1,
+      "h": 5,
+      "input_terms": 15,
+      "surviving_terms": 15,
+      "output_blocks": 3
+    },
+    {
+      "a": 2,
+      "h": 1,
+      "input_terms": 8,
+      "surviving_terms": 6,
+      "output_blocks": 3
+    },
+    {
+      "a": 2,
+      "h": 2,
+      "input_terms": 14,
+      "surviving_terms": 12,
+      "output_blocks": 3
+    },
+    {
+      "a": 2,
+      "h": 3,
+      "input_terms": 20,
+      "surviving_terms": 18,
+      "output_blocks": 3
+    },
+    {
+      "a": 2,
+      "h": 4,
+      "input_terms": 26,
+      "surviving_terms": 24,
+      "output_blocks": 3
+    },
+    {
+      "a": 2,
+      "h": 5,
+      "input_terms": 32,
+      "surviving_terms": 30,
+      "output_blocks": 3
+    },
+    {
+      "a": 3,
+      "h": 1,
+      "input_terms": 15,
+      "surviving_terms": 9,
+      "output_blocks": 3
+    },
+    {
+      "a": 3,
+      "h": 2,
+      "input_terms": 24,
+      "surviving_terms": 18,
+      "output_blocks": 3
+    },
+    {
+      "a": 3,
+      "h": 3,
+      "input_terms": 33,
+      "surviving_terms": 27,
+      "output_blocks": 3
+    },
+    {
+      "a": 3,
+      "h": 4,
+      "input_terms": 42,
+      "surviving_terms": 36,
+      "output_blocks": 3
+    },
+    {
+      "a": 3,
+      "h": 5,
+      "input_terms": 51,
+      "surviving_terms": 45,
+      "output_blocks": 3
+    },
+    {
+      "a": 4,
+      "h": 1,
+      "input_terms": 24,
+      "surviving_terms": 12,
+      "output_blocks": 3
+    },
+    {
+      "a": 4,
+      "h": 2,
+      "input_terms": 36,
+      "surviving_terms": 24,
+      "output_blocks": 3
+    },
+    {
+      "a": 4,
+      "h": 3,
+      "input_terms": 48,
+      "surviving_terms": 36,
+      "output_blocks": 3
+    },
+    {
+      "a": 4,
+      "h": 4,
+      "input_terms": 60,
+      "surviving_terms": 48,
+      "output_blocks": 3
+    },
+    {
+      "a": 4,
+      "h": 5,
+      "input_terms": 72,
+      "surviving_terms": 60,
+      "output_blocks": 3
+    },
+    {
+      "a": 5,
+      "h": 1,
+      "input_terms": 35,
+      "surviving_terms": 15,
+      "output_blocks": 3
+    },
+    {
+      "a": 5,
+      "h": 2,
+      "input_terms": 50,
+      "surviving_terms": 30,
+      "output_blocks": 3
+    },
+    {
+      "a": 5,
+      "h": 3,
+      "input_terms": 65,
+      "surviving_terms": 45,
+      "output_blocks": 3
+    },
+    {
+      "a": 5,
+      "h": 4,
+      "input_terms": 80,
+      "surviving_terms": 60,
+      "output_blocks": 3
+    },
+    {
+      "a": 5,
+      "h": 5,
+      "input_terms": 95,
+      "surviving_terms": 75,
+      "output_blocks": 3
+    },
+    {
+      "a": 6,
+      "h": 1,
+      "input_terms": 48,
+      "surviving_terms": 18,
+      "output_blocks": 3
+    },
+    {
+      "a": 6,
+      "h": 2,
+      "input_terms": 66,
+      "surviving_terms": 36,
+      "output_blocks": 3
+    },
+    {
+      "a": 6,
+      "h": 3,
+      "input_terms": 84,
+      "surviving_terms": 54,
+      "output_blocks": 3
+    },
+    {
+      "a": 6,
+      "h": 4,
+      "input_terms": 102,
+      "surviving_terms": 72,
+      "output_blocks": 3
+    },
+    {
+      "a": 6,
+      "h": 5,
+      "input_terms": 120,
+      "surviving_terms": 90,
+      "output_blocks": 3
+    }
+  ],
+  "diagonal_growth": [
+    {
+      "a": 1,
+      "D_lower_bound": 1.0,
+      "a_power_4_over_3": 1.0
+    },
+    {
+      "a": 2,
+      "D_lower_bound": 3.333333333333333,
+      "a_power_4_over_3": 2.5198420997897464
+    },
+    {
+      "a": 3,
+      "D_lower_bound": 6.222222222222221,
+      "a_power_4_over_3": 4.3267487109222245
+    },
+    {
+      "a": 10,
+      "D_lower_bound": 34.594683762324195,
+      "a_power_4_over_3": 21.544346900318832
+    },
+    {
+      "a": 100,
+      "D_lower_bound": 776.2177131088552,
+      "a_power_4_over_3": 464.15888336127773
+    },
+    {
+      "a": 1000,
+      "D_lower_bound": 16790.232804568383,
+      "a_power_4_over_3": 9999.999999999995
+    }
+  ],
+  "matrix_algorithm_status": "Explicit rank certificate absent from paper"
+}
