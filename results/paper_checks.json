@@ -2,7 +2,7 @@
   "status": "passed",
   "scope": "finite identities and numerical checks, not proof of full theorem",
   "separation_cases": 6,
-  "fourier_max_error": 1.2158392476705703e-15,
+  "fourier_max_error": 0.0,
   "epsilon_decay": [
     {
       "epsilon": 0.5,

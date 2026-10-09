@@ -1,0 +1,10 @@
+{
+  "status": "budget_exhausted",
+  "rounds": 93,
+  "candidates_checked": 4305,
+  "seconds": 10.0,
+  "epsilon": "1/10",
+  "target_recursion_exponent": "23/10",
+  "certificate_found": false,
+  "scope": "bounded exhaustive enumeration; not practical numerical rank optimization"
+}

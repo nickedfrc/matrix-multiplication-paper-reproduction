@@ -1,0 +1,13 @@
+{
+  "exact_tests_passed": 14,
+  "scalar_rank_one_candidates": 16,
+  "bounded_search_epsilon": "1/10",
+  "bounded_search": {
+    "status": "budget_exhausted",
+    "rounds": 20,
+    "candidates_checked": 210,
+    "seconds": 0.14099999994505197
+  },
+  "fast_certificate_found": false,
+  "scope": "search mechanism and exact Strassen tests; no 9/4 runtime claim"
+}

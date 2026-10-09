@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "checks": 66,
+  "dtype": "float64",
+  "seed": 20261009,
+  "repeats": 3,
+  "thread_setting": "same pre-import settings as matmul_compare",
+  "timing_includes": "validation, packing, FFT, allocation and extraction",
+  "rows": [
+    {
+      "n": 32,
+      "method": "numpy",
+      "median_ms": 0.007215147842145753,
+      "samples_seconds": [
+        7.2151478421457535e-06,
+        6.913811237347204e-06,
+        7.494734726550488e-06
+      ],
+      "calls_per_sample": 2469,
+      "relative_error": 0.0
+    },
+    {
+      "n": 32,
+      "method": "fft_packed",
+      "median_ms": 1.490128575824201,
+      "samples_seconds": [
+        0.0014840714284218848,
+        0.001490128575824201,
+        0.001509142856645797
+      ],
+      "calls_per_sample": 14,
+      "relative_error": 5.290362298398714e-16,
+      "fft_points": 32768
+    },
+    {
+      "n": 32,
+      "method": "strassen_leaf_32",
+      "median_ms": 0.008314327183428054,
+      "samples_seconds": [
+        8.314327183428054e-06,
+        8.325232071326636e-06,
+        7.624709962493375e-06
+      ],
+      "calls_per_sample": 1724,
+      "relative_error": 0.0
+    },
+    {
+      "n": 64,
+      "method": "numpy",
+      "median_ms": 0.01906656126905973,
+      "samples_seconds": [
+        1.906656126905973e-05,
+        1.9464353525464655e-05,
+        1.8882334205888986e-05
+      ],
+      "calls_per_sample": 317,
+      "relative_error": 0.0
+    },
+    {
+      "n": 64,
+      "method": "fft_packed",
+      "median_ms": 20.98550007212907,
+      "samples_seconds": [
+        0.019059999962337315,
+        0.02098550007212907,
+        0.024524200009182096
+      ],
+      "calls_per_sample": 1,
+      "relative_error": 5.765577606970104e-16,
+      "fft_points": 262144
+    },
+    {
+      "n": 64,
+      "method": "strassen_leaf_32",
+      "median_ms": 0.10390677962894157,
+      "samples_seconds": [
+        9.388050905002628e-05,
+        0.00010390677962894157,
+        0.00011062881439703249
+      ],
+      "calls_per_sample": 118,
+      "relative_error": 5.065491906920587e-16
+    },
+    {
+      "n": 128,
+      "method": "numpy",
+      "median_ms": 0.11893149600987594,
+      "samples_seconds": [
+        0.00012085511803803012,
+        0.00011893149600987594,
+        0.00011603543296544336
+      ],
+      "calls_per_sample": 127,
+      "relative_error": 0.0
+    },
+    {
+      "n": 128,
+      "method": "fft_packed",
+      "median_ms": 199.20549995731562,
+      "samples_seconds": [
+        0.20302779995836318,
+        0.19453290000092238,
+        0.19920549995731562
+      ],
+      "calls_per_sample": 1,
+      "relative_error": 6.74836897371877e-16,
+      "fft_points": 2097152
+    },
+    {
+      "n": 128,
+      "method": "strassen_leaf_32",
+      "median_ms": 0.7169428572524339,
+      "samples_seconds": [
+        0.0007169428572524339,
+        0.0007219178577153278,
+        0.0006951214288294848
+      ],
+      "calls_per_sample": 28,
+      "relative_error": 9.28265541854659e-16
+    }
+  ],
+  "fourier_projection": [
+    {
+      "M": 4,
+      "direct": {
+        "median_ms": 0.5468999734148383
+      },
+      "fft": {
+        "median_ms": 0.07680000271648169
+      }
+    },
+    {
+      "M": 8,
+      "direct": {
+        "median_ms": 10.904900031164289
+      },
+      "fft": {
+        "median_ms": 0.14110002666711807
+      }
+    },
+    {
+      "M": 16,
+      "direct": {
+        "median_ms": 342.4356000032276
+      },
+      "fft": {
+        "median_ms": 2.795299980789423
+      }
+    }
+  ],
+  "complexity": "O(m*n*k*log(m*n*k)) time; O(m*n*k) storage",
+  "fast_rank_certificate_found": false
+}

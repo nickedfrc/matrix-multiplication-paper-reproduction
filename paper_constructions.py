@@ -7,6 +7,7 @@ import json
 import math
 from pathlib import Path
 import numpy as np
+from fft_algorithms import fourier_project_fft
 
 def polynomial_tensor(a,b):
     c = np.zeros((a,b,a+b-1),dtype=np.int64)
@@ -36,7 +37,7 @@ def separation(M, epsilon=0.0, coefficients=None):
     assert np.all(weight[keep]==(g-h)[keep]**2)
     assert np.all(weight[keep]>=0)
     L = 5*M
-    numerical = np.exp(2j*np.pi*np.arange(L)[:,None,None,None,None]*phase/L).mean(axis=0)
+    numerical = fourier_project_fft(M)
     np.testing.assert_allclose(numerical,keep,atol=2e-13,rtol=0)
     factors = np.zeros_like(phase,dtype=np.float64)
     factors[keep] = epsilon**weight[keep]
